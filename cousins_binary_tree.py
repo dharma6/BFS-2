@@ -4,7 +4,7 @@ Tricky, but I found the logic of comparing, if the childern belonging to the sam
 if((curr_root.left.val ==x and curr_root.right.val == y) or (curr_root.left.val == y and curr_root.right.val ==x)): is not very intuitive, as you have to repeat the logic two times.
 
 TC: O(n) --> as we go through all the elements of the array
-SC: O(1) --> To maintain the queue.
+SC: O(n) --> To maintain the queue.
 
 '''
 class Solution:
