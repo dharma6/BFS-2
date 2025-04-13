@@ -1,7 +1,6 @@
 
 '''
-Tricky, but I found the logic of comparing if the childern belonging to the same parent is easy compared to other ways of solving the problem.
-and also the if condition at the end if one is found and the other is not found return False.
+Tricky, but I found the logic of comparing, if the childern belonging to the same parent, is easy compared to other ways of solving the problem.
 if((curr_root.left.val ==x and curr_root.right.val == y) or (curr_root.left.val == y and curr_root.right.val ==x)): is not very intuitive, as you have to repeat the logic two times.
 
 TC: O(n) --> as we go through all the elements of the array
